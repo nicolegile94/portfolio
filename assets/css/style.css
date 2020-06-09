@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --primary-color: #080363;
+    --secondary-color: #9c99cf;
+    --tertiary-color: #dbdaf2;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px 35px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;    
+}
+
+header h1 {
+    
+}
+
