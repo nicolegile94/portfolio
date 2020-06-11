@@ -13,6 +13,12 @@
 body {
     font-family: "Times New Roman", Times, serif;
     color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+p {
+    margin: 0;
+    text-indent: 2em
 }
 
 header {
@@ -23,6 +29,88 @@ header {
 }
 
 header h1 {
-    
+    font-weight: bold;
+    font-size: 36px;
+    background-color: var(--secondary-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+.hero {
+    background-image: url("../images/apple-camera-lens-computer-desk-577560.jpg");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.photo {
+    background-image: url("../images/me.jpg");
+    background-size: contain;
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+}
+
+.hero-cta {
+    text-align: right;
+    font-size: 36px;
+    line-height: 5;
+    margin: 3.5%;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.about-me {
+    display: flex;
+    padding: 60px;
+}
+
+.about-me p {
+    font-size: 18px;
+    margin-left: 30px;
+
+}
+
+.contact-me {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.contact-me ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.contact-me ul li {
+    padding: 10px 15px;
+    font-size: 18px;
 }
 
